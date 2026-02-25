@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /Advance-File-Share-Bot
-WORKDIR /Advance-File-Share-Bot
+RUN mkdir /SB_0101
+WORKDIR /SB_0101
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
